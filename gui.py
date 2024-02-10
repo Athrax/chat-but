@@ -12,6 +12,7 @@ class CadreMenuGauche:
 
 class BoxMess:
     def __init__(self,CadreChat):
+        pass
 
 
 class CadreChat:
@@ -37,6 +38,7 @@ class Application(ctk.CTk):
         self.geometry("800x500")
         self.minsize(width=800, height=500)
         self.main()
+
     def main(self):
         self.grid_columnconfigure(1, weight=1)
         self.grid_rowconfigure(1, weight=1)
