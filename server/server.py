@@ -9,8 +9,8 @@ def gerer_client(client_socket, client_address):
     print(f"Message reçu du client {client_address}: {donnees.decode()}")
 
     # Fermer le socket client
-    client_socket.close()
-    print(f"Connexion avec {client_address} fermée")
+    # client_socket.close()
+    # print(f"Connexion avec {client_address} fermée")
 
 # Créer un objet socket
 serveur_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
